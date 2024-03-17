@@ -1,0 +1,159 @@
+
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+body{
+    width: 1440px;
+    margin: auto;
+}
+#menuSuperior{
+    font-weight: 400px;
+    color: #fff;
+    background-image: url(imagens/imagemHeader.svg);
+    height: 560px;
+}
+
+#logo{
+    margin-left: 56px ;
+    margin-top: 52px;
+    width: 125px;
+    height: 62px;
+}
+
+#hero{
+    size: 40px;
+    line-height: 51.4px;
+    width: 536px;
+    height: 102px;
+    margin-left: 172px;
+    margin-top: 50px;
+}
+
+#corpo{
+    size: 20px;
+    line-height: 30px;
+    width: 536px;
+    height: 90px;
+    margin-left: 172px;
+    margin-top: 30px;
+}
+
+#menuInformacional{
+    color: #122235;
+    background-color: #eaece5;
+    height: 170px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+.textoInformativo{
+    display: flex;
+    align-items: center;
+}
+
+#seccaoVideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#tituloVideo{
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#paragrafoVideo{
+    color: #383838;
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel{
+    height: 340px;
+    background-color: #247BA0;
+    padding: 75px;
+}
+
+#tituloCarrossel{
+    color: #EAECE5;
+    text-align: center;
+    font-size: 32px;
+}
+
+#cards{
+    margin-top: 100px;
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+
+.cards{
+    margin-left: 100px;
+}
+
+#setaEsquerda{
+    display: none;
+}
+
+#bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 50%;
+    cursor: pointer;
+}
+.seta:hover{
+    transform: translateY(-7px);
+    transition: 0.5s;
+}
+
+#tituloFormulario{
+    color: #383838;
+    text-align: center;
+    padding: 30px;
+}
+
+#formulario{
+    text-align: center;
+    padding: 30px;
+}
+
+input{
+    width: 413px;
+    height: 63px;
+    background-color: #EAECE5;
+    margin: 25px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 25px;
+}
+
+button{
+    background-color: #247BA0;
+    width: 300px;
+    height: 63px;
+    color: #fff;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #34a0ce ;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px 0px #12223579;
+    transition-duration: 0.5s;
+}
